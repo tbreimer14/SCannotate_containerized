@@ -67,7 +67,7 @@ The `--reload` flag is optional; omit it in production.
 
 ## Running with Docker
 
-The recommended way to run SCannotate in production is via Docker. The image builds the React frontend and serves it alongside the FastAPI backend in a single container.
+The image builds the React frontend and serves it alongside the FastAPI backend in a single container.
 
 **Requirements:** Docker and Docker Compose. Allocate at least **4 GB** of memory to the container — LightGBM and SHAP analysis can be memory-intensive.
 
